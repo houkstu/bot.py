@@ -10,7 +10,7 @@ from telegram.ext import (
 # ====== Конфигурация ======
 DATA_FILE = "residents.json"
 PAYMENTS_FILE = "payments.json"
-ADMIN_IDS = []  # Сюда добавьте Telegram ID администратора (можно узнать через /id)
+ADMIN_IDS = [8476900598]  # Сюда добавьте Telegram ID администратора (можно узнать через /id)
 
 # Реквизиты карты (замените на свои)
 CARD_DETAILS = """
