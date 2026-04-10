@@ -487,7 +487,7 @@ def main():
     TOKEN = "8297655807:AAH5THLmX-dQGtO41gDYU6xG8V59fTWE1AY"
     
     # Добавьте сюда Telegram ID администратора (узнайте через /id)
-    ADMIN_IDS.append(8476900598)  # Замените на реальный ID
+    ADMIN_IDS.append()  # Замените на реальный ID
     
     app = Application.builder().token(TOKEN).build()
     
